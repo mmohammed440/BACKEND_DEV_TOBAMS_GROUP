@@ -1,0 +1,6 @@
+{
+  "name": "Card Validator Pro",
+  "description": "A secure and efficient card number validation API using the Luhn algorithm.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["Backend API", "Data Validation"]
+}
