@@ -5,7 +5,7 @@ import cors from "cors";
 import bodyParser from "body-parser";
 import swaggerUi from "swagger-ui-express";
 import swaggerJsdoc from "swagger-jsdoc";
-import { validateLuhn, getCardNetwork } from "./src/utils/luhn.ts";
+import { validateLuhn, getCardNetwork } from "./src/utility/luhn_algorithm/luhn";
 
 // Swagger Definition
 const swaggerOptions = {

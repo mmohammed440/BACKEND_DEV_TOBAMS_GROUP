@@ -53,8 +53,7 @@ export default function App() {
             <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="w-full max-w-md bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden"
-            >
+                className="w-full max-w-md bg-white rounded-2xl shadow-xl border border-slate-200 overflow-hidden">
                 <div className="bg-slate-900 p-8 text-white">
                     <div className="flex items-center gap-3 mb-2">
                         <div className="bg-blue-500 p-2 rounded-lg">
