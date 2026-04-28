@@ -23,7 +23,7 @@ A secure, high-performance API for validating credit card numbers using the indu
 ### Running Tests
 To verify the validation logic directly:
 ```bash
-npx tsx src/utils/luhn.test.ts
+npx tsx src/utility/tests/luhn.tests.ts
 ```
 
 ---
@@ -33,8 +33,8 @@ npx tsx src/utils/luhn.test.ts
 The project is architected to separate concerns, making it maintainable and testable:
 
 - **`server.ts`**: The entry point. It sets up an Express server and integrates Vite as middleware to serve the frontend React application.
-- **`src/utils/luhn.ts`**: Contains the core domain logic. It implements the Luhn algorithm for validation and a network identifier function.
-- **`src/utils/luhn.test.ts`**: A dedicated test suite for the domain logic.
+- **`src/utility/luhn_algorithm/luhn.ts`**: Contains the core domain logic. It implements the Luhn algorithm for validation and a network identifier function.
+- **`src/utility/tests/luhn.tests.ts`**: A dedicated test suite for the domain logic.
 - **`src/App.tsx`**: A modern React frontend that interacts with the API, providing a user-friendly interface for testing.
 
 ---
